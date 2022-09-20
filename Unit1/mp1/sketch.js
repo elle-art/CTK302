@@ -14,9 +14,6 @@ function setup() {
   text("9/13/22 1.5 hrs - adding fire");
 }
 
- 
-
-
 function draw() {
   background(100);
   background(47, 57, 92);
