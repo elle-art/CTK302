@@ -8,16 +8,21 @@ function setup() {
 function draw() {
   switch(state) {
     case 0: 
-      background("red");
-      text("why did the chicken cross the road??", width/2, height/2);
+      fill("black");
+      background("#b08a7d");
+      textStyle(NORMAL);
+      text("I have a joke about pizza...", width/2, height/2);
       break;
 
     case 1:
-      background("blue");
-      text("because he wanted to.", width/2, height/2);
+      fill("black");
+      background("#f7e64a");
+      textStyle(BOLD);
+      text("but it's too cheesy!", width/2, height/2);
       break;
   }
 
+  fill("#de5528");
   rect (100, 100, 100, 100);
 }
 
