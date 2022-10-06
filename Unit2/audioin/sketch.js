@@ -17,6 +17,7 @@ function draw() {
 
   // text on the screen for debugging
   textSize(18);
+  fill("black");
   text(
     "Click the screen first to give\npermission for mic input.\n\nMy volume is " +
       vol.toFixed(3),
@@ -27,7 +28,8 @@ function draw() {
   // this moves the box
   //  x = vol*200 ;
   x = map(vol, 0, 1, 0, width);
-  rect(x, 200, 50, 50);
+  fill("purple");
+  ellipse(x, 200, 50, 50);
 }
 
 // you need this code for audio programs and also, the user
