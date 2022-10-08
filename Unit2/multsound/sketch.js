@@ -8,8 +8,8 @@ function preload() {
   s3 = loadSound("assets/inspire.mp3");
 }
 function setup() {
-  createCanvas(800, 800);
-  f3 = loadFont("assets/FranchiseFilled.ttf");
+  createCanvas(500, 500);
+  f3 = loadFont("assets/Franchise.ttf");
 }
 
 function draw() {
@@ -19,29 +19,29 @@ function draw() {
   switch (state) {
 
     case -1:
-      textFont(f3, 30);
-      text("click to start!", 100, 100);
+      textFont(f3, 70);
+      text("click to start!", 65, 100);
       break;
 
     case 0:
-      background("purple");
-      text("dreams", 100, 100);
+      background("#bfa1d4");
+      text("dreams", 100, height/2);
       if (!s1.isPlaying()) {
         s1.play();
       }
       break;
 
     case 1:
-      background("brown");
-      text("hip jazz", 100, 100);
+      background("#996c60");
+      text("hip jazz", 100, height/2);
       if (!s2.isPlaying()) {
         s2.play();
       }
       break;
 
     case 2:
-      background("yellow");
-      text("inspire", 100, 100);
+      background("#ffffa6");
+      text("inspire", 100, height/2);
       if (!s3.isPlaying()) {
         s3.play();
       }
