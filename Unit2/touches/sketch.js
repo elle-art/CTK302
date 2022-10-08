@@ -10,11 +10,11 @@ function setup() {
 function draw() {
   clear();
   numberOfTouches = touches.length;
-  text(numberOfTouches + ' touches', 5, 10);
+  text(numberOfTouches + ' touches', width/2, 10);
   
   switch(numberOfTouches) {
     case 0: 
-      text("nobody's here", 5, 22) ; 
+      text("nobody's here", width/2, 22) ; 
       break ;
       
       case 1: 
