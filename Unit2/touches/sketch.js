@@ -11,26 +11,26 @@ function setup() {
 function draw() {
   clear();
   numberOfTouches = touches.length;
-  text(numberOfTouches + ' touches', width/2, 10);
+  text(numberOfTouches + ' touches', 100, 10);
   
   switch(numberOfTouches) {
     case 0: 
-      text("nobody's here", width/2, 22) ; 
+      text("nobody's here", 100, 22) ; 
       break ;
       
       case 1: 
-       text("one is the loneliest number", width/2, 22) ; 
-       image(i1, width/2, height/2, 200, 200) ;
+       text("one is the loneliest number", 100, 22) ; 
+       image(i1, 100, 100, 200, 200) ;
       break ;
       
       case 2:
-      text("two can be as bad as one, \nit's the loneliest number since the number one", width/2, 22) ; 
-      image(i2, width/2, height/2, 200, 200) ;
+      text("two can be as bad as one, \nit's the loneliest number since the number one", 100, 22) ; 
+      image(i2, 100, 100, 200, 200) ;
       break ;
       
       case 3:
-     text("three's a crowd though", width/2, 22) ; 
-     image(i3, width/2, height/2, 200, 200) ;
+     text("three's a crowd though", 100, 22) ; 
+     image(i3, 100, 100, 200, 200) ;
       break ;
     
       
