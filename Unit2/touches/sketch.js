@@ -19,17 +19,17 @@ function draw() {
       
       case 1: 
        text("one is the loneliest number", 5, 22) ; 
-       image(i1, width/2, height/2 - 120, 100, 100) ;
+       image(i1, width/2, height/2, 200, 200) ;
       break ;
       
       case 2:
       text("two can be as bad as one, it's the loneliest number since the number one", 5, 22) ; 
-      image(i2, width/2, height/2, 100, 100) ;
+      image(i2, width/2, height/2, 200, 200) ;
       break ;
       
       case 3:
      text("three's a crowd though", 5, 22) ; 
-     image(i3, width/2, height/2 + 120, 100, 100) ;
+     image(i3, width/2, height/2, 200, 200) ;
       break ;
     
       

@@ -1,5 +1,6 @@
 let state = -1;
-let s1, s2, s3;
+let s1, s2, s3, f3;
+
 
 function preload() {
   s1 = loadSound("assets/dreams.mp3");
@@ -8,6 +9,7 @@ function preload() {
 }
 function setup() {
   createCanvas(800, 800);
+  f3 = loadFont("assets/FranchiseFilled.ttf");
 }
 
 function draw() {
@@ -17,6 +19,7 @@ function draw() {
   switch (state) {
 
     case -1:
+      textFont(f3, 30);
       text("click to start!", 100, 100);
       break;
 
