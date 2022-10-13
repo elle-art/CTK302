@@ -47,7 +47,7 @@ switch (state) {
     fill(0);
     text("How to play", width/2, 50);
     textFont(f2, 25);
-    text("\nUse your voice to fuel her anger and set stuff on fire. \nClick the screen first to give\npermission for mic input.", width/2, 50);
+    text("\nThis is Cali and she hates the sound of your voice\nUse your voice to fuel her anger and set stuff on fire. \nClick the screen first to givepermission for mic input.", width/2, 50);
     break;
   //plain av, mic, level 1
   case 2:
