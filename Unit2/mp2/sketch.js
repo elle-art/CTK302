@@ -21,7 +21,7 @@ function setup() {
   text("CODE FREEZE 10/12/2022 @11:59pm");
   text("10/9/22 .5 hrs - setting up states/audio");
   text("10/9/22 .5 hrs - fixing small things like text placement");
-  //text("9/13/22 1.5 hrs - adding fire");
+  text("10/12/22 2 hrs - finishing up");
 }
 
 function draw() {
